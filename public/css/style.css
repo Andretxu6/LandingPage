@@ -12,11 +12,12 @@ footer>.contenido{
     text-align: center;
     margin: auto;
 }
-footer>.contenido>ul{
+footer .contenido ul{
     text-align: center;
 }
-footer>.content>ul>li{
-    display:inline-block;
+footer .contenido ul li{
+    display: inline-block;
+    margin: 20px;
 }
 
 /*OVERRIDE BOOTSTRAP*/

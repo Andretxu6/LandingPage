@@ -4,6 +4,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/bootstrap/css/paper.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.css">
 

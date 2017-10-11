@@ -1,10 +1,23 @@
 .front{
-    background-image: url("/img/title.png");
+    background-image: url("https://citibox.com/wp-content/uploads/2016/06/web-bg4.jpg");
     background-position: 0px -65px;
     height: 350px;
 }
+
+.informacion>.info{
+    margin: auto;
+    max-width: 850px;
+}
+
+.form>.form-inside{
+    max-width: 600px;
+    margin: auto;
+}
+
+/*header y footer*/
+
 header{
-    background-image: url("/img/title.png");
+    background-image: url("https://citibox.com/wp-content/uploads/2016/06/web-bg4.jpg");
 }
 
 footer>.contenido{
@@ -19,6 +32,8 @@ footer .contenido ul li{
     display: inline-block;
     margin: 20px;
 }
+
+
 
 /*OVERRIDE BOOTSTRAP*/
 .navbar-default{

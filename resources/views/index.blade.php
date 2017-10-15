@@ -16,7 +16,7 @@
     <div class="form">
         <div class="form-inside">
             <h2>Contáctanos!</h2>
-            <form action="/LandingPage/public/contactSend" method="post" class="form-horizontal well">
+            <form action="/contactSend" method="post" class="form-horizontal well">
                 {{ csrf_field() }}
                 <fieldset>
                     <legend>Legend</legend>

@@ -11,7 +11,7 @@
 
     <div class="footer-left">
 
-        <h3>Company<span>logo</span></h3>
+        <h3>Service<span>Box</span></h3>
 
         <p class="footer-links">
             <a href="#">Home</a>
@@ -27,7 +27,7 @@
             <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">Company Name &copy; 2015</p>
+        <p class="footer-company-name">ServiceBox &copy; 2017</p>
     </div>
 
     <div class="footer-center">

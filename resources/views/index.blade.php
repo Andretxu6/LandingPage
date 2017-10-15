@@ -1,8 +1,8 @@
 @extends('master.master')
 @section('content')
     <div class="front container-fluid">
-        <h1>Boxinator</h1>
-        <h3>Expertos en almacenaje y servicios asociados</h3>
+        <h1>Service<span>Box</span></h1>
+        <h3><span>Expertos en almacenaje y servicios asociados</span></h3>
     </div>
 
     <div class="informacion">

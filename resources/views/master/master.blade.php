@@ -12,7 +12,7 @@
             @yield('content')
         </div>
 
-        <footer>
+        <footer class="footer-distributed">
             @include('master.footer')
         </footer>
     </body>

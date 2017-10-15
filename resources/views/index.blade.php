@@ -1,7 +1,8 @@
 @extends('master.master')
 @section('content')
     <div class="front container-fluid">
-        <h1>Andele TAQUILLAS TAQUITOS!!</h1>
+        <h1>Boxinator</h1>
+        <h3>Expertos en almacenaje y servicios asociados</h3>
     </div>
 
     <div class="informacion">
@@ -14,21 +15,21 @@
 
     <div class="form">
         <div class="form-inside">
-            <h2>Contact us!</h2>
-            <form action="/contactSend" method="post" class="form-horizontal well">
+            <h2>Contáctanos!</h2>
+            <form action="/LandingPage/public/contactSend" method="post" class="form-horizontal well">
                 {{ csrf_field() }}
                 <fieldset>
                     <legend>Legend</legend>
                     <div class="form-group">
                         <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                         <div class="col-lg-10">
-                            <input type="text" class="form-control" id="inputEmail" name="email" placeholder="Contact email">
+                            <input type="text" class="form-control" id="inputEmail" name="email" placeholder="Email de contacto">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPhone" class="col-lg-2 control-label">Phone</label>
                         <div class="col-lg-10">
-                            <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Contact phone number">
+                            <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Número de contacto">
                         </div>
                     </div>
                     <div class="form-group">
@@ -39,8 +40,8 @@
                     </div>
                     <div class="form-group">
                         <div class="col-lg-10 col-lg-offset-2">
-                            <button type="reset" class="btn btn-default">Cancel</button>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-default">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
                     </div>
                 </fieldset>
@@ -48,7 +49,7 @@
             <div class="error">
                 @if ($errors->any())
                     <script>
-                        swal("Error!","No seas tan inútil!", "error");
+                        swal("Error!","Has introducido mal los datos", "error");
                     </script>
                     <div class="alert alert-danger">
                         <ul>

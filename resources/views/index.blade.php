@@ -16,7 +16,7 @@
     <div class="form">
         <div class="form-inside">
             <h2>Contáctanos!</h2>
-            <form action="/contactSend" method="post" class="form-horizontal well">
+            <form action="/LandingPage/public/contactSend" method="post" class="form-horizontal well">
                 {{ csrf_field() }}
                 <fieldset>
                     <legend>Legend</legend>
@@ -47,6 +47,7 @@
                 </fieldset>
             </form>
             <div class="error">
+
                 @if ($errors->any())
                     <script>
                         swal("Error!","Has introducido mal los datos", "error");
@@ -58,6 +59,16 @@
                             @endforeach
                         </ul>
                     </div>
+                @else
+                    <?php session_start();
+                    if (isset($_SESSION["success"]) && $_SESSION["success"] = "success"){
+                        echo "<script>";
+                        echo "swal('success','Has introducido mal los datos', 'success')";
+                        echo "</script>";
+
+                    }
+                    session_destroy();
+                    ?>
                 @endif
             </div>
         </div>

@@ -20,6 +20,10 @@ class inputContact extends Controller
         $row->message=$_POST['text'];
         $row->save();
 
+        session_start();
+        $_SESSION["success"] = "success";
+
         return(redirect('/'));
+
     }
 }
